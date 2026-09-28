@@ -1,7 +1,7 @@
 streamlit
 pypdf2
 python-docx
-openpyxlz
+openpyxl
 pandas
 langchain-text-splitters
 google-generativeai
