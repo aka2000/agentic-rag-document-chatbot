@@ -9,3 +9,4 @@ faiss-cpu
 python-dotenv
 python-pptx
 dotenv
+sentence-transformers

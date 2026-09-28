@@ -21,7 +21,7 @@ class CoordinatorAgent:
     in the RAG pipeline. It acts as a message broker, dispatching messages between
     Ingestion, Retrieval, and LLM Response agents, and also handles direct UI communication.
     """
-    def __init__(self, embedding_dim: int = 768, vector_store_dir: str = "vector_store_data"):
+    def __init__(self, embedding_dim: int = 384, vector_store_dir: str = "vector_store_data"):
         """
         Initializes the CoordinatorAgent and all its sub-agents.
 

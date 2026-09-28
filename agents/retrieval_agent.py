@@ -21,7 +21,7 @@ class RetrievalAgent(Agent):
     5. Sending the most relevant retrieved chunks to the LLMResponseAgent.
     6. Managing the persistence (loading/saving/clearing) of the vector store.
     """
-    def __init__(self, message_broker, embedding_dim: int = 768, vector_store_dir: str = "vector_store_data"):
+    def __init__(self, message_broker, embedding_dim: int = 384, vector_store_dir: str = "vector_store_data"):
         """
         Initializes the RetrievalAgent.
 
